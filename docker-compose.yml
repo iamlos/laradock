@@ -56,10 +56,10 @@ services:
         volumes_from:
             - data
         ports:
-            - "3306:3306"
+            - "33060:33060"
         environment:
-            MYSQL_DATABASE: homestead
-            MYSQL_USER: homestead
+            MYSQL_DATABASE: merchants
+            MYSQL_USER: merchants
             MYSQL_PASSWORD: secret
             MYSQL_ROOT_PASSWORD: root
 
@@ -72,8 +72,8 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_DB: homestead
-            POSTGRES_USER: homestead
+            POSTGRES_DB: merchants
+            POSTGRES_USER: merchants
             POSTGRES_PASSWORD: secret
 
 ### MariaDB Container #######################################
@@ -85,8 +85,8 @@ services:
         ports:
             - "3306:3306"
         environment:
-            MYSQL_DATABASE: homestead
-            MYSQL_USER: homestead
+            MYSQL_DATABASE: merchants
+            MYSQL_USER: merchants
             MYSQL_PASSWORD: secret
             MYSQL_ROOT_PASSWORD: root
 
@@ -98,7 +98,7 @@ services:
             - "7474:7474"
             - "1337:1337"
         environment:
-            - NEO4J_AUTH=homestead:secret
+            - NEO4J_AUTH=merchants:secret
         volumes_from:
             - data
 

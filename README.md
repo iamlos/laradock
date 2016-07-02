@@ -1,6 +1,5 @@
 # LaraDock
 
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://zalt.me)
 
 
 LaraDock helps you run your **Laravel** App on **Docker** real quick.
