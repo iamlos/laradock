@@ -1,0 +1,8 @@
+- service: 
+  command: ls ./
+- service: 
+  type: push
+  name: docker_push
+  image_name: localhost:5000/laradock
+  registry: localhost:5000
+  #encrypted_dockercfg_path: ./.dockercfg.encrypted
