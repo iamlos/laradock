@@ -1,7 +1,7 @@
 # LaraDock
 
 
-[![Build Status](https://travis-ci.org/iamlos/laradock.svg?branch=master)](https://travis-ci.org/iamlos/laradock)
+[![Build Status](https://travis-ci.org/iamlos/laradock.svg?branch=master)](https://travis-ci.org/iamlos/laradock) [ ![Codeship Status for iamlos/laradock](https://codeship.com/projects/28fcd6e0-224a-0134-11d9-4ef69db363d6/status?branch=master)](https://codeship.com/projects/161132)
 LaraDock helps you run your **Laravel** App on **Docker** real quick.
 <br>
 It's like Laravel Homestead but for Docker instead of Vagrant.
